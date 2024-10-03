@@ -1,0 +1,97 @@
+/* ProfilePage.css */
+
+/* Container styling */
+.user-profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6A0572; /* Northwestern purple */
+    color: #FFFFFF; /* White text for contrast */
+  }
+  
+  /* Welcome message */
+  h2 {
+    font-size: 2.5rem;
+    color: #FFFFFF; /* White text */
+  }
+  
+  /* Navigation links */
+  a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #F2F2F5; /* Light background color for links */
+    text-decoration: none;
+  }
+  
+  /* Purchases and sold books sections */
+  .user-purchases, .user-sold-books {
+    margin-top: 20px;
+  }
+  
+  /* Book list styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #4E2A84; /* Slightly darker purple border */
+    background-color: #F2F2F5; /* Light background color */
+  }
+  
+  /* Book details styling */
+ 
+  
+  /* Price styling */
+  div:nth-child(2) {
+    color: #2C7BB6; /* Northwestern blue for price */
+  }
+  
+  /* Date styling */
+  div:nth-child(3) {
+    color: #4E2A84; /* Slightly darker purple for date */
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #6A0572; /* Northwestern purple for the button */
+    color: #FFFFFF; /* White text for the button */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4E2A84; /* Slightly darker purple on hover */
+  }
+  
+  .profile-text {
+    font-size: 1.25rem;
+  }
+
+  .button-not-sold {
+    background-color: #6A0572; /* Northwestern purple for the button */
+    color: #FFFFFF; /* White text for the button */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button-not-sold:hover {
+    background-color: #4E2A84; /* Slightly darker purple on hover */
+  }
+
+  .button-sold {
+    background-color: #6A0572; /* Slightly darker purple on hover */
+    color: #FFFFFF; /* White text for the button */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button-sold:hover {
+    background-color: #4E2A84; /* Northwestern purple for the button */
+  }

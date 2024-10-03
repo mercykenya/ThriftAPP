@@ -1,0 +1,97 @@
+/* Homepage.css */
+
+/* Container styling */
+.homepage-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #341231;
+}
+
+/* Custom dropdown styling */
+.custom-dropdown {
+  display: flex;
+  justify-content: center; /* Centers dropdown horizontally */
+  align-items: center; /* Centers dropdown vertically */
+  margin-top: 20px; 
+  font-size: 1.5rem;
+  padding: 1rem 2.5rem;
+  color: #571340;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+}
+
+/* Sell button styling */
+.sell-button {
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  color: #ffffff;
+  border-radius: 0.25rem;
+  margin-left: auto;
+  background-color: #500063;
+}
+
+/* Header styling */
+.header h1 {
+  font-family: "Grape Nuts", cursive;
+  color: #500063;
+  font-size: 4rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+/* Centered text */
+.text-center {
+  text-align: center;
+}
+
+/* Margin utility class */
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Search bar styling */
+.searchbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sort-by {
+  margin-left: 20px;
+}
+
+/* User profile info styling */
+.user-profile-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* User profile link styling */
+.user-profile-link a {
+  color: #500063;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+/* User sold books styling */
+.user-sold-books {
+  margin-top: 20px;
+  color: #500063;
+}
+
+/* User sold books title styling */
+.user-sold-books h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.dropdown-container {
+  width: 100%; /* Full width to center the dropdown */
+  text-align: center; /* Center the dropdown toggle */
+  padding-top: 10px; /* Adjust as needed */
+}
+

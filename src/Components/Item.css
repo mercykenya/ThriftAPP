@@ -1,0 +1,44 @@
+.Img {
+  max-width: 120px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 18rem;
+  background: #fff;
+}
+
+.card:hover {
+  outline: 4px solid #ddd;
+
+}
+
+.Info {
+  flex: 1;
+  padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .Item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Img {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.card-img-top {
+  align-self: center;
+  max-width: 70%;
+  height: auto;
+}

@@ -1,0 +1,96 @@
+/* SellerForm.css */
+
+/* Form container styling */
+
+.scroll-instructions {
+  font-size: 1rem;
+  color: #6a0572;
+  font-weight: bold; /* Make the text bold */
+  text-align: center;
+  margin-bottom: 10px;
+}
+.seller-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f3f4;
+  color: #5a3159;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+::-webkit-scrollbar {
+  width: 20px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6a0572; 
+  border-radius: 10px; 
+}
+/* Form title styling */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #250624;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Form label styling */
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #441147; /* Dark purple text */
+}
+
+/* Form input styling */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4e2a84;
+  border-radius: 5px;
+}
+
+/* Form select styling */
+.form-control-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4e2a84;
+  border-radius: 5px;
+  color: #4e2a84;
+}
+
+/* Form textarea styling */
+.form-control-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4e2a84;
+  color: #4e2a84;
+}
+
+/* Form file input styling */
+.form-control-file {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4e2a84;
+  border-radius: 5px;
+  color: #4e2a84;
+}
+
+/* Submit button styling */
+.submit-button {
+  background-color: #6a0572;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #4e2a84;
+}

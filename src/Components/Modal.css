@@ -1,0 +1,40 @@
+.custom-modal {
+  display: flex;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.custom-modal-show {
+  visibility: visible;
+  background-color: rgba(160, 160, 160, 0.8);
+  transition: opacity 0.2s linear;
+}
+
+.custom-modal-content {
+  background-color: white;
+  opacity: 1;
+  margin: 0rem;
+  padding: 0 1 0rem;
+  border-radius: 0.5rem;
+  max-height: 80vh;
+  max-width: 60vw;
+  overflow: auto; 
+  overflow-wrap: break-word;
+  box-sizing: border-box; 
+}
+
+.custom-modal-show .custom-modal-content {
+  opacity: 1;
+  transition: 0.2s linear;
+}
+
+.custom-modal-header {
+  margin-left: auto;
+}

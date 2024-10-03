@@ -1,0 +1,18 @@
+[33m6546045[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: reset: moving to HEAD^
+[33mdbed27e[m[33m ([m[1;31morigin/sort-by[m[33m)[m HEAD@{1}: pull origin sort-by: Fast-forward
+[33m4ba63e3[m HEAD@{2}: pull origin main: Fast-forward
+[33m51f01cd[m HEAD@{3}: pull origin main: Fast-forward
+[33m00ffd60[m HEAD@{4}: pull origin main: Fast-forward
+[33maca808e[m HEAD@{5}: pull origin main: Fast-forward
+[33mdf124fd[m HEAD@{6}: commit: another slight modification that I forgot to save
+[33m84b896f[m HEAD@{7}: commit: Make buttons more visible and improved Thriftnu title
+[33m1a06fda[m HEAD@{8}: pull origin main: Fast-forward
+[33m46b5fac[m HEAD@{9}: commit: Updated homepage with the sell button, but sellerform seems to go wrong
+[33mff4ddcd[m HEAD@{10}: pull origin main: Fast-forward
+[33me8f740e[m HEAD@{11}: pull origin main: Fast-forward
+[33m9faf815[m HEAD@{12}: pull origin main: Fast-forward
+[33mf423454[m HEAD@{13}: pull origin main: Fast-forward
+[33m71ee1fd[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{14}: checkout: moving from master to main
+[33m71ee1fd[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{15}: commit: corrected image and slightly improved UI
+[33m8c218f0[m HEAD@{16}: pull origin main: Fast-forward
+[33m453cfdf[m HEAD@{17}: initial pull
